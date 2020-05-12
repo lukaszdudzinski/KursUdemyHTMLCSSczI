@@ -1,22 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- MetaTAGI -->
+    <meta charset="UTF-8"> <!--polskie znaki-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--wyswietlanie ztrony komp i telefon - resposywnosc-->
+    <!-- metatagi do pozycjonowania Author, keywords, descryption -->
+    <mata name="Author" content="Ukasz Dudziński"></mata>
+    <mata name="keywords" content="maska, fajka, aparat oddechowy, butla"></mata>
+    <mata name="descryption" content="Blog o nurkowaniu"></mata>
     <link rel="stylesheet" href="href=/style.css">
     <title>Document</title>
-    <style>
-        *{
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-    </style>
-</head>
+   </head>
 <body>
     <!-- elementy liniowe  div i p zajmuja cała dostepna szerokosc - SPAN zajmuje mniej tyle -->
-    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum odit tempora aperiam magni doloremque quam blanditiis ratione repudiandae assumenda iste natus corporis molestiae vitae delectus, soluta asperiores saepe, rerum nostrum!</div>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis non quis unde mollitia natus iure quibusdam veritatis temporibus nihil. Veniam ex doloremque labore ducimus quisquam! Excepturi assumenda repudiandae numquam! Obcaecati.</p>
-    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quidem cumque veniam dolorum laudantium esse fugiat itaque aliquid reprehenderit sint sapiente nostrum repudiandae quam illo ea adipisci corporis cum porro.</span>
+    <div>To jest tekst w Divie</div> <!--element blokowy zajmuje cała linie -->
+    <div>To jest tekst w Divie</div>
+    <div>To jest tekst w Divie</div>
+    <p>To jest teskd w paragfafie</p> <!--element blokowy zajmuje cała linie -->
+    <p>To jest teskd w paragfafie</p>
+    <p>To jest teskd w paragfafie</p>
+    <span>to jest tekst w spanie</span><!--element LINIOWY nie zajmuje całej lini -->
+    <span>to jest tekst w spanie</span>
+    <span>to jest tekst w spanie</span>
+
+    <!-- Nagłówki -->
+    <h1>Nagłówek</h1>
+    <h2>Nagłówek</h2>
+    <h3>Nagłówek</h3>
+    <h4>Nagłówek</h4>
+    <h5>Nagłówek</h5>
+    <h6>Nagłówek</h6>
+<p>Nagłowek</p>
+<!-- br to taki tag enter -->
+<!-- hr podkreslenie -->
+<hr>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Perferendis ipsa quibusdam odio aliquam alias soluta fuga cupiditate, dolorem voluptates consectetur fugiat nisi ipsam ratione facilis eligendi porro natus commodi et.</p>
+<hr>
+<!-- tag a linki -->
+<a href="https://petycja.wwf.pl/rafa/" target="_blank">WWF</a>
+
+
+<!-- Główne tagi HTML -->
+<header>nagłówek</header>
+<nav>nawigacja</nav>
+<main>głowna czesc na stronie <!-- mian powinien być jeden na stronie-->
+<!-- w mianie mamy takie tagi jak:
+section - moze byc kilka
+article - moze być kilka articlów w sectionie
+-->
+
+</main>
+<aside></aside><!-- z bkoku maina moze występować ASIDE -->
+<footer>stopka</footer>
+
+<!-- Przyciski -->
+<button> Kliknij mnie</button>
+<button disabled> Kliknij mnie</button><!--wyłączony przycisk-->
+<!-- przyciski formularz -->
+<form action=""></form>
+<p>Napisz cos:</p>
+<textarea name="" id="" cols="38" rows="10"></textarea>
+<!-- przyciski liska wyboru -->
+<select name="" id="">
+    <option value="">red</option>
+    <option value="">black</option>
+    <option value="" disabled>white</option>
+</select>
+<!--przyciski Input-->
+<input type="text">
+<input type="checkbox">
+<input type="checkbox" checked >
+<input type="button" value="BUTTO">
+<input type="color">
+<input type="date">
+<input type="radio">
+<input type="password">
+
+<!-- Formatowanie tekstu i zabawa z nim -->
+<!-- del usuwamy ale chcemy zostawic na stronie -->
+<del>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error minima similique, repellat nobis quam sapiente illo voluptate illum facilis? Nulla non maiores ut eum nobis ipsum cum facere accusamus repudiandae?</del>
+<br>
+<!-- s tag reprezentuje tresc nieaktualna -->
+<s>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit odit, illum error, eveniet ipsam provident alias ad repellat quidem similique voluptatibus. Veritatis maxime alias laboriosam qui porro. Tenetur, quod reiciendis!</s>
+<br>
+<!-- pogrubienie -->
+<b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias culpa odit commodi at. Saepe iure cupiditate maiores, commodi mollitia laudantium libero distinctio aliquid, reiciendis fugit explicabo perferendis corporis optio odit!</b>
+<br><br>
+<!-- podgrubienie wizualne ale podnosi senatyczną wartosc - czytnik ekraku informuje ze jest tekst pogrubiony dla niewidomych -->
+<strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, incidunt facere. Voluptatum cupiditate modi voluptas, nostrum culpa provident accusamus praesentium sapiente eius tenetur rerum nesciunt et, totam nobis quibusdam excepturi.</strong>
+<br><br>
+<!-- pochylony tekst -->
+<i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, optio. Facere, esse asperiores cum minima alias fugiat cupiditate ipsum est iusto natus neque tempore! Laudantium temporibus adipisci quibusdam non quaerat?</i>
+<br><br>
+<!-- pochyliny tekst wizualne ale podnosi senatyczną wartosc - czytnik ekraku informuje ze jest tekst pogrubiony dla niewidomych -->
+<em>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt iure, perferendis dolor libero tempore accusantium perspiciatis fugiat laudantium, exercitationem reiciendis sequi nulla blanditiis nostrum fugit, corporis sint? Quasi, magni doloribus.</em>
+<br><br>
+<!-- podkreślenie tektu -->
+<u>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, soluta reprehenderit! Eveniet, corporis a mollitia illo assumenda, non aperiam aut in omnis beatae, perferendis nisi deleniti distinctio excepturi? Nesciunt, laboriosam.</u>
+
+<!-- 
+    strong, em - wartość symantyczna - stosujemy jesli chcemy zwiekszyc wartos semantycza
+    b, u, i - CSS - jezeli chcemy tylko zmienic wyglad 
+-->
+
+<!-- Podreslenie markerem tag mark-->
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <mark>  Quis, mollitia voluptatem. Minus, nulla aliquid eum</mark> voluptatem explicabo iusto molestiae assumenda alias. Ea vel atque tempore iste repudiandae exercitationem similique architecto.</p>
+<br><br>
+<!-- tagi indeksów górnych sup i dolnych sub -->
+<!-- górny indeks -->
+<p>2<sup>2</sup>=4</p>
+<!-- dolny indesk -->
+<p>2<sub>2</sub>=4</p>
+<br><br>
+<!-- Tag pre -->
+<pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Minima explicabo quae debitis laudantium, aspernatur laborum! Necessitatibus, vitae. 
+    Ratione animi delectus cumque magnam beatae deserunt at, 
+    labore temporibus recusandae iure reiciendis.</pre>
+
+    <!-- Ignorowanie BIAŁYCH znaków przez HTMLa - twarda spacja &nbsp-->
+    <br><br>
+    <p>Lorem ipsum dolor sit,  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; amet consectetur adipisicing elit. Ab ea accusamus, beatae deleniti, a quis fugiat unde incidunt tempore eum dignissimos. Recusandae non exercitationem quis inventore praesentium consequuntur neque molestias!</p>
+
+
+
 </body>
 </html>
