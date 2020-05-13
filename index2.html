@@ -10,6 +10,31 @@
     <mata name="descryption" content="Blog o nurkowaniu"></mata>
     <link rel="stylesheet" href="href=/style.css">
     <title>Document</title>
+
+    <!-- Sekcja 2 poznajemy HTML - 16 Tabele HTML -->
+    <style>
+        table{
+            border-spacing: 0;
+        }
+        table,
+        td{ 
+            border: 1px solid black;
+        }
+        td,th{
+            padding: 5px 20px;
+        }
+        thead{
+            background-color: tomato;
+        }
+        tbody{
+            color: black;
+            background-color: white;
+        }
+        tfoot{
+            background-color: royalblue;
+        }
+    </style>
+
    </head>
 <body>
     <!-- elementy liniowe  div i p zajmuja cała dostepna szerokosc - SPAN zajmuje mniej tyle -->
@@ -122,7 +147,89 @@ article - moze być kilka articlów w sectionie
     <br><br>
     <p>Lorem ipsum dolor sit,  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; amet consectetur adipisicing elit. Ab ea accusamus, beatae deleniti, a quis fugiat unde incidunt tempore eum dignissimos. Recusandae non exercitationem quis inventore praesentium consequuntur neque molestias!</p>
 
+    <!-- ListyHTML -->
+    <!-- li jest najczesciej wykorzystywane do budowania menu -->
+<nav>
+    <ul>
+        <li><a href="">MENU 1</a></li>
+        <li><a href="">MENU 2</a></li>
+    </ul>
+</nav>
+<br><br>
 
+    <!-- lista nie uporzadkowana -->
+    <ul>
+        <li>test</li>
+        <li>test</li>
+        <li>test</li>
+    
+    </ul>
+    <br><br>
+    <!-- lista uporzadkowan -->
+    <ol>
+        <li>test </li>
+        <li>test </li>
+        <li>test </li>
+    </ol>
+<br><br>
+    <!--TAbele HTML  -->
+<!-- tebela rodzic
+tr - tabela row-rząd
+td - komórka tabali
+ -->
+    <table>
+        <tr>
+            <th>Nagłówek 1</th>
+            <th>Nagłówek 2</th>
+            <th>Nagłówek 3</th>
+        </tr>
+        <tr>
+            <td>TD numer 1</td>
+            <td>TD numer 2</td>
+            <td>TD numer 3</td>
+        </tr>
+        <tr>
+            <td>TD numer 1</td>
+            <td>TD numer 2</td>
+            <td>TD numer 3</td>
+        </tr>
+    </table>
+
+    <!-- rowspan - łączy komórki wierszy-->
+    <table>
+        <tr>
+            <th>Nagłówek 1</th>
+            <th>Nagłówek 2</th>
+        </tr>
+        <tr>
+            <td>TD numer 1</td>
+            <td rowspan="3"> All</td>
+        </tr>
+        <tr>
+            <td>TD numer 1</td>
+        </tr>
+    </table>
+<br><br>
+<p>Plan dnia
+    <br>
+    <table>
+        <tr>
+            <td></td>
+            <td>Piatek </td>
+            <td>Sobota</td>
+        </tr>
+        <tr>
+            <td>18:00</td>
+            <td>Film</td>
+            <td>Serial</td>
+        </tr>
+        <!-- colspan łączeniewierszy -->
+        <tr>
+            <td>21:00</td>
+            <td colspan="2" >spotkanie ze znajomymi</td>           
+        </tr>
+    </table>
+</p>
 
 </body>
 </html>
