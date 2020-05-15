@@ -4,12 +4,33 @@
 /* DO TEGO CSSA JEST PLIK HTML */
 /* Stylowanie robimy za pomoca klas p.{}, a ID wykorzystujemy zostawiamy d JS */
 
+
 /* UNIWERSALNY selector *{} - pod gwiazdkę jest podstawiany kazdy występujący selektor np: div, p, a itd... */
+
 
 /* GDZIE UMIESZCZAMY CSS?
 1. w zewnętrznym pliku i to jest zalecane
-2. w tagach <style> w pliku HTML
-3. liniowo w tagu np: <p style=color=lime>... */
+2. w tagach <style> w pliku HTML (umiejscowic w headzie) np
+    <style>
+        span{
+            font-size: 45px;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+3. stylowanie LINIOWO w tagu np: style="font-size:100px;text-transform: uppercase;color: lime;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum id nam aperiam architecto, suscipit dicta, accusantium, similique delectus nulla deserunt unde dolore ducimus ut laboriosam at optio ratione eaque in.
+    </p> */
+
+
+/* DOMYŚLNE STYLE PRZEGLADAREK */
+/* w kazdej przegladarce domyslne style wygladają inaczej np opera i firefox
+mozna wykonać normalizacje styli na stronie aby miec pewność */
+
+/* NARZĘDZIA DEWELOPERSKIE */
+/*  ppm Zdbadaj element na stronie lub F12*/
+
+
 *{
     box-sizing: border-box;
     margin: 0;

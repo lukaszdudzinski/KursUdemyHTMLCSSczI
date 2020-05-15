@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    padding: 20px;
+    font-family: 'Fontdiner', sans-serif;
+    font-size: 100px;
+    color: white;
+    background-color: #333;
+}
+
+p {
+    /* Czcionka szeryfowa nie sprawdza sie na srtonach 
+    na stronach powinnismy uzywac czcionek bezszeryfowych!!*/
+    /* font-family: serif; */
+    font-family: 'Fontdiner Swanky', cursive;
+    /* Czcionka w nazwie zawierajaca dwa słowa (lub wiecej np:Franklin Gothic Medium ) warto wpisywać w ciapkach lub cudzysłowiach z uwagi na to ze stara przegladarka moze odczytac to jako dwie oddzielne czcionki  */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-style: italic;
+    font-weight:bolder ;
+}
+
+/* Czcionka bez szeryfowa
+.sans-serif{
+    font-family: sans-serif;
+}
+/* MONOSPAC  znaki mają taka sama szerokość czy to litera i czy m 
+widac to na podglądzie ja zaznaczymy tekst */
+.monospace {
+    font-family: monospace;
+}
+
+/* Nie jest zalecane zeby tego używać - to nie jest typowa kursywa tylko takie udziwnienia tekstu upiększenia*/
+.cursive {
+    font-family: cursive;
+}

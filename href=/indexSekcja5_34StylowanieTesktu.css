@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    padding: 20px;
+    font-family: 'Fontdiner', sans-serif;
+    font-size: 64px;
+    height: 100vh;
+    color: white;
+    background-color: #333;
+}
+
+p {
+    color: gold;
+    /* text-align: justify;
+    text-decoration: underline; */
+    /* letter-spacing: 100px; - miedzy literami pojawiaja sie odstepy miedzy literami */
+    /* word-spacing: 10px; - odstępy miedzy wyrazami*/
+    /* line-height: 100px; - wysokość linii */
+    text-align: center;
+    line-height: 300px;/* line hight z p i z Diva poniżej powoduje ze robimy wysrodkowanie w pionie czyli na tzw osi Y - greków, wyśrodkowanie na linii X-ów zrobilismy za pomocą text-align*/
+
+    direction: rtl;/*Zmienia kierunek biegu tekstuz lewej do prawej lub z prawej do lewej */
+
+    text-shadow: 10px 5px 5px black;/* cienoowanie taktu */
+
+}
+div{
+    background-color: tomato;
+    height: 300px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    color: navy;
+    /* text-decoration: line-through; - przekreslenie*/
+}
+.big{
+    text-transform: uppercase;
+
+}
+.small{
+    text-transform:  lowercase;
+}
