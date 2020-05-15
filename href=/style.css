@@ -27,3 +27,9 @@ span{
     color: #000;
     background-color:tomato;
 }
+/* SEKCJA 3 CSS */
+
+
+/* Stylowanie robimy za pomoca klas p.{}, a ID wykorzystujemy zostawiamy d JS */
+
+/* UNIWERSALNY selector *{} - pod gwiazdkę jest podstawiany kazdy występujący selektor np: div, p, a itd... */

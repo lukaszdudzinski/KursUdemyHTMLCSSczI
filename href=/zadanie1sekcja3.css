@@ -1,0 +1,11 @@
+body{
+    background-color: royalblue;
+}
+p {
+   /* padding: 30px;  */
+   /* background-color: white; */
+   font-size: 30px;
+   color: white;
+   text-align: center;
+   /* text-transform: none; */
+}

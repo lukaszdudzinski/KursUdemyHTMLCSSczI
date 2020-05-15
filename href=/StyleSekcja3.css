@@ -1,0 +1,51 @@
+/* SEKCJA 3 CSS */
+
+
+/* DO TEGO CSSA JEST PLIK HTML */
+/* Stylowanie robimy za pomoca klas p.{}, a ID wykorzystujemy zostawiamy d JS */
+
+/* UNIWERSALNY selector *{} - pod gwiazdkę jest podstawiany kazdy występujący selektor np: div, p, a itd... */
+
+/* GDZIE UMIESZCZAMY CSS?
+1. w zewnętrznym pliku i to jest zalecane
+2. w tagach <style> w pliku HTML
+3. liniowo w tagu np: <p style=color=lime>... */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 20px;
+    font-family: 'Montserrat', serif;
+    font-size: 24px;
+    height: 100vh;
+    color: rgb(253, 251, 251);
+    background-color: grey;
+}
+/* PONIŻEJ PARAMETRY DLA SELEKTORÓW DIV P I SPAN */
+div,p,span{
+    font-size: 40px;
+}
+/* PONIZEJ CSS SZUKA SPANA KTÓRY SPEŁNIA WARUNEK ZE JEST W p, A p JEST W div */
+div p span{
+    font-size: 80px;
+}
+/* najlepiej uzyc klasy zamiast wymieniac seletory div, p, span */
+.test{
+    font-size: 50px;
+}
+.outside{
+    width: 600px;
+    height: 600px;
+    background-color:tomato;
+
+}
+#inside{
+    position:absolute;
+    width: 300px;
+    height: 300px;
+    background-color: gold !important;/*IMPORTANT znacznik który powoduje ze bez wzgledu na kolejnosc akurat tu ten kolor bedzie najwazniejszy - to jest koło awaryjne używamy sporadycznie*/
+    margin: 50px 10px 80px 150px;
+
+}
