@@ -25,30 +25,74 @@ p {
     /* word-spacing: 10px; - odstępy miedzy wyrazami*/
     /* line-height: 100px; - wysokość linii */
     text-align: center;
-    line-height: 300px;/* line hight z p i z Diva poniżej powoduje ze robimy wysrodkowanie w pionie czyli na tzw osi Y - greków, wyśrodkowanie na linii X-ów zrobilismy za pomocą text-align*/
+    line-height: 300px;
+    /* line hight z p i z Diva poniżej powoduje ze robimy wysrodkowanie w pionie czyli na tzw osi Y - greków, wyśrodkowanie na linii X-ów zrobilismy za pomocą text-align*/
 
-    direction: rtl;/*Zmienia kierunek biegu tekstuz lewej do prawej lub z prawej do lewej */
+    direction: rtl;
+    /*Zmienia kierunek biegu tekstuz lewej do prawej lub z prawej do lewej */
 
-    text-shadow: 10px 5px 5px black;/* cienoowanie taktu */
+    text-shadow: 10px 5px 5px black;
+    /* cienoowanie taktu */
 
 }
-div{
-    background-color: tomato;
+
+div {
+    /* background-color: tomato; */
     height: 300px;
 }
 
-a{
+/* Poniżej do zadania 36 */
+.z36 {
+    width: 500px;
+    height: 500px;
+    /* nazwy kolorów */
+    /* background-color: lime; */
+
+    /* kolory rgb */
+    /* background-color: rgb(247, 190, 4); */
+
+    /*Kolory z hsl*/
+    /* background-color:hsl(360, 100%, 50%) ; */
+
+    /* Kolory HEX */
+    /* background-color: #; */
+
+    /* Kolory HSLA RGBA  - efekt przeźroczystości, o przeźroczystości decyduje parametr ALFA od 0.0 do 1 moze byc np: 0.5*/
+    /* background-color:rgba(255, 0, 0, 0.5) ; */
+}
+
+a {
     text-decoration: none;
     color: white;
 }
-span{
+
+span {
     color: navy;
     /* text-decoration: line-through; - przekreslenie*/
 }
-.big{
+
+.big {
     text-transform: uppercase;
 
 }
-.small{
-    text-transform:  lowercase;
+
+.small {
+    text-transform: lowercase;
+}
+
+img {
+    /* IMG jest tagiem liniowym w HTMLU */
+    /* WAŻNE -Jezeli podamy tylko width to obrazek zachowa proporcje */
+    width: 600px;
+
+    /* wysrodkowanie obrazu za pomoca MARGIN */
+    margin: 50px auto;
+
+    display: block;
+    border-radius: 50%;
+    /* efekt przezroczystości od 0-1 - opacity */
+    opacity: 0.7;
+
+    /* filter - umozliwoa zmiany obrazka  */
+    filter: blur(2px);
 }

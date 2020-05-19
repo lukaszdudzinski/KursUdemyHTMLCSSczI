@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* jeen bład wpisałem ustawienia w HTMP a nie w Body */
+Body{
+    font-family: 'Comfortaa', cursive;
+    background-color: #333;
+    color: white;
+}
+i{
+    padding: 30px;
+}
+/* IMG element liniowy dlatego aby był wysrodkowany potrzebujemy dodac diplay block */
+img{
+    width: 350px; 
+    margin: 50px auto;
+    display: block;
+}
+p{
+    color: lime;
+    font-weight: bold;
+}
+span{
+/* tu zeby była od razu przezroczystość trzeba bylo skorzystac z RBGA */
+    background-color: rgba(0,0,0, 0.8);
+
+    /* background-color: black;
+    opacity: 0.8; */
+}
+ol{
+    margin-left: 50px;
+}
