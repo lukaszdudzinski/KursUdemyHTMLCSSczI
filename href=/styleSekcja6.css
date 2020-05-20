@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* ponizej pseudoklasa root - pseudo klasy maja wieksza ważnosc - w tym wypadku root i html oznacza to samo*/
+/* :root{
+    font-size: 100px;
+
+} */
+html{
+    font-size: 50px;
+}
+
+body{
+    font-family: 'Comfortaa', cursive;
+    color: azure;
+    background-color: #333;
+    /* font-size: 50px; */
+    
+}
+.box{
+    width: 100%;
+    /* ponizej kometaz aby sprawdzic jak zadziaa rzodzic i dziecko box i inside w ustawieniach 100% i 50% */
+    /* width: 100px; */
+    height: 300px;
+    background-color: lime;
+
+    /*MAX - MIN width 
+    - własciwosc która powoduje ze obiekt nie bedzie wiekszy niż  
+    na tej samej zasadzie działa MIN width
+    Jezeli ustawimi Minimalna szerokosc to do tej wartosci zminiejszy sie przegladarka a później pojawi sie juz na dole pasek do przewijania.*/
+    max-width: 800px;
+}
+.inside{
+    /* P */
+    /* procenty odnosza sie do naszego rodzica czyli do pierto wyzej klasy box 
+    teoterycznie wielkosc czy 50% czy 300px wyglada tak samo ale jesli rodzic czyli ustawienia z BOX były by wieksze to ustawienie 50% tez by spowodowało ze element inside tez było by wieksze*/
+    /* width: 50%; */
+    /* width: 300px; */
+
+    /* View port hight i width- czyli okno naszej przegladarki - jezeli ustawie 50 vw to bedzie zajmować połowe otwartego ona przegladarki :D */
+    width: 10vw;
+    height: 10vh;
+    /* height: 300px; */
+    background-color: royalblue;
+}
+ p{
+    /* REM to jest 3 razy jednosta główna czyli 3*10px z sekcji aktywnej HTML */
+    /* font-size: 1rem; */
+} 
+
+
+/* em */
+div{
+    padding: 20px 50px;
+}
+/* selektory one i two stosujac jednostke em od nosza sie do rodzica czyli classy top i sa wielokrotnoscia tej liczby */
+.top{
+    font-size:20px ;
+}
+.one{
+    font-size: 1em;
+}
+.two{
+    font-size: 2em;
+}
+.bottom{
+    font-size: 30px;
+}
+.first{
+    font-size: ;
+}
+.second{
+    font-size: ;
+}

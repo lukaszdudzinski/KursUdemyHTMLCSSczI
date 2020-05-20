@@ -1,0 +1,26 @@
+*{
+box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    background-color: #333;
+    color: aliceblue;
+    font-size: 36px;
+
+}
+h3{
+    padding: 20px;
+    text-transform: uppercase;
+}
+p{
+    padding: 20px;
+    color: lime;
+}
+.text{
+
+}
+#text{
+
+}
