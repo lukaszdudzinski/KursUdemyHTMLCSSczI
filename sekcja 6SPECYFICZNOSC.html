@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPECYFICZNOSC CSS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/href=/style6SPECYFICZNOSC.css">
+<style>
+body{
+    background-color: #333;
+    font-family: 'Comfortaa', cursive;
+    color: aliceblue;
+    font-size: 30px;
+
+}
+/* PONIŻEJ STRUKTURA WAŻNOSCI  */
+/* 0-inline, 0-ID, 0-klasa, 0-tag HTML */
+/* oczywiscie important przepbija wszystko */
+
+/* 0 1 0 0 */
+#test{
+    background-color: tomato;
+
+}
+
+/* 0 0 1 0 */
+.square{
+background-color: lime;
+}
+/* 0 0 0 1 */
+div{
+    background-color: gold;
+    width: 600px;
+    height: 600px;
+}
+
+
+</style>
+
+</head>
+<body>
+    <div class="square" id="test" style="background-color: blueviolet;"></div>
+</body>
+</html>
