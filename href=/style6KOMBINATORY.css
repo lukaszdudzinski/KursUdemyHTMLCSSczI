@@ -10,3 +10,34 @@
         font-size: 36px;
     
     }
+    h3{
+        text-transform: uppercase;
+    }
+    p{
+        padding: 10px;
+    }
+    div, p{
+        color: lime;
+    }
+
+    div p{
+        color: navajowhite;
+    }
+    section p{
+        color: blueviolet;
+    }
+    /* Znak > nazywamy KOMBINATOREM */
+    /* ZNAK > - TO ODWOŁANIE DO BEZPOSDREDNICH DZIECI  diva które sa u na P-aragrafami*/
+    /* div>p{
+        color: royalblue;
+    } */
+
+    /* + ODWOŁANIE DO PIERWSZEGO BEZPOSREDNIEGO BRATA DIVA w naszyn wypdku*/
+    div+p{
+        color: red;
+    }
+
+    /* ~ KOMBINATOR WSKAZUJACY WSZYSTKICH BRACI, bez znaczenia czy cos jest miedzy nimi */
+    div~p{
+        color: salmon;
+    }

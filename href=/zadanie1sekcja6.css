@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    color: aliceblue;
+    background-color: #333;
+    font-size: 36px;
+    padding: 20px;
+}
+h3{
+    text-transform: uppercase;
+}
+div p{
+    color: red;
+}
+.child p{
+    text-decoration: line-through;
+    font-weight: bolder;
+}
+#id~div{
+    background-color: blueviolet;
+}
+main+p{
+    text-transform: uppercase;
+}
