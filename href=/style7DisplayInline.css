@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    color: aliceblue;
+    background-color: #333;
+    font-size: 45px;
+}
+h3{
+    text-transform: uppercase;
+}
+div{
+    background-color: lime;
+}
+p{
+    background-color: blueviolet;
+}
+span{
+    display: inline-block;
+    background-color: goldenrod;
+    width: 350px;
+    height: 100px;
+}
+img{
+    width: 300px;
+}

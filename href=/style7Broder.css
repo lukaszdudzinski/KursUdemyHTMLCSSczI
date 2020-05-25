@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    color: aliceblue;
+    background-color: #333;
+    font-size: 25px;
+}
+h3{
+    text-transform: uppercase;
+}
+div{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: royalblue;
+    /* zaokrąglanie rogów - mozna wykonać idealne koło */
+    /* border-radius: 30%; */
+
+    /* Border - obramowanie 
+    - jaki rozmiar chcemy lini
+    - solid, dash - okreslamy jak ma wygladac linia obramowania
+    - kolor ramki;*/
+    /* border: 10px solid black; */
+
+    /* Mozemy tez kazdy bok obiektu okpisac innym obramowaniem */
+    border-top: 10px dotted whitesmoke;
+    border-right: 20px solid red;
+    border-bottom: 5px dashed orangered;
+    border-left: 15px solid yellowgreen;
+
+    /* Możemy jeszcze z Radiusem zrobic powyższe obramowania */
+    border-bottom-left-radius: 70px ;
+    border-top-right-radius: 70px;
+}
+

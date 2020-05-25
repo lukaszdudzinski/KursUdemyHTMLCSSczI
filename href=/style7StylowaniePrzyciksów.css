@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    color: aliceblue;
+    background-color: #333;
+    font-size: 45px;
+}
+h3{
+    text-transform: uppercase;
+}
+button{
+    font-size: larger;
+    padding: 40px 70px;
+    background-color: goldenrod;
+    /* brak obranowania poniżej */
+    border: none;
+    border-radius: 5px;
+    /* ponizej zmiana kursowra po najechaniu na przycisk */
+    cursor: pointer;
+
+    /* Efekt spowolnienia zmiany koloru na Przycisku */
+    /* transition: .3s; */
+
+    /* Optymalizacja kodu - trasnition   */
+    transition: background-color .3s, box-shadow 2s ;
+}
+button:hover{
+    background-color: salmon;
+    box-shadow: 3px 8px 5px red;
+
+}
+
+div{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    transition: .4s;
+    /* display: none;  ODNOSI SIE DO ZAKOMENTOWANEGO span I div W HTML*/
+
+}
+div:hover{
+    width: 500px;
+    height: 500px;
+    background-color: gold;
+}
+/* ODNOSI SIE DO ZAKOMENTOWANEGO span I div W HTML*/
+/* span:hover + div{
+    display:block
+} */
