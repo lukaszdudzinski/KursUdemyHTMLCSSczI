@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: aliceblue;
+    background-color: #333;
+}
+.bg{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ddd;
+}
+.square{
+    transform: translateX(-50);
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    right: -15%;
+    cursor: pointer;
+
+}
+.blue{
+    background-color: royalblue;
+    left: 20%;
+}
+.green{
+    background-color: greenyellow;
+    
+    left: 40%;
+}
+.red{
+    background-color: red;
+    
+    left: 60%;
+}
+.gold{
+    background-color: goldenrod;
+    
+    left: 80%;
+}
+
+.blue:hover~.bg{
+    background-color: royalblue;
+    transition:background-color .5s;
+
+}
+.green:hover~.bg{
+    background-color: greenyellow;
+    transition:background-color .8s;
+
+}
+.red:hover~.bg{
+    background-color: red;
+    transition:background-color .9s;
+
+}
+.gold:hover~.bg{
+    background-color: goldenrod;
+    transition:background-color .95s;
+
+}

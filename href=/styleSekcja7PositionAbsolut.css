@@ -1,0 +1,44 @@
+
+body{
+    font-family: 'Comfortaa', cursive;
+    color: aliceblue;
+    background-color: #333;
+    font-size: 36px;
+    padding: 20px;
+}
+h3{
+    text-transform: uppercase;
+}
+
+div{
+    margin: 0 auto;
+    width: 250px;
+    height: 150px;
+    border: 3px solid black;
+}
+.red{
+    background-color: red;
+}
+
+/* Position Absolut zaburza umieszczenie elenetów na stronie 
+Position Absolut działa z korelacji z Positio Relative Rodzica
+Przesuwa elementy względem swoejgo rodzica
+
+*/
+
+.blue{    
+    background-color: blue;
+    position: relative;
+    }
+.green{
+    background-color:green;
+}
+.gold{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color:gold ;
+    margin: 0;
+    width: 120px;   
+    height: 120px;
+}

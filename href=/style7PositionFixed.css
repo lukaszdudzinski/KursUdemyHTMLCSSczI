@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    color: antiquewhite;
+    background-color: #333;
+    font-size: 25px;
+    height: 200vh;
+}
+h3{
+    text-transform: uppercase;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 650px;
+}
+div{
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+.red{
+    background-color: red;
+
+    /* Position Sticky - działa tez na rodzicu */
+    position: sticky;
+    top: 0;
+
+}
+.blue{
+    background-color: royalblue;
+    /* Position Fixed */
+    /* nie które właściwości CSSa w połączeniu z Position Fixed moze powodować ze ta własciwośc Pisition Fixed nie bedzie działać */
+    /* position: fixed; */
+    /* TOP zero 0 - przyklejowny prostokat do górnej krawedzi */
+    /* top: 0; */
+
+}
+.green{
+    background-color: greenyellow;
+
+}

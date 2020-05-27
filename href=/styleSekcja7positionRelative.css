@@ -1,0 +1,44 @@
+
+body{
+    font-family: 'Comfortaa', cursive;
+    color: aliceblue;
+    background-color: #333;
+    font-size: 36px;
+    padding: 20px;
+}
+h3{
+    text-transform: uppercase;
+}
+
+/* KAZDY ELEMENT NA DOMYSLNIE POSITION - STATIC */
+
+div{
+    margin: 0 auto;
+    width: 250px;
+    height: 150px;
+    border: 3px solid black;
+}
+.red{
+    background-color: red;
+}
+.blue{    
+    background-color: blue;
+    
+/* Dzieki Position mozemy pozycjonowac nasze elementy na stronie internetowej */
+
+    position: relative;
+    top: 100px;
+    left: 50px;
+    /* efekt gebokosci- wgłębienia */
+    z-index: -20px;
+
+    /* POSITION przyjmuje następujące wartości:
+    1 top
+    2 left
+    3 right
+    4 bottom
+    */
+}
+.green{
+    background-color:green;
+}
