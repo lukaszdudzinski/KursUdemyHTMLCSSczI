@@ -44,7 +44,8 @@ div{
 }
 .square{
     width: 200px;
-    height: 200px;background-color: goldenrod;
+    height: 200px;
+    background-color: goldenrod;
 
 /* 47 OVERFLOW -> HIDDEN - UKRYWA TRESC KTÓRA SIE NIE MIESCI 
 - JAK WYBIERZEMY SOBIE "AUTO" DODA SIE WÓWCZAS PASEK DO PRZEWIJANIA*/

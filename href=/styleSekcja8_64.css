@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: aliceblue;
+    background-color: #333;
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: royalblue;
+    border: 1px solid black;
+    box-shadow: 5px 5px 15px navy;
+    border-radius: 25px;
+    position: relative;
+    left: calc(50% - 100px);
+}
+
+.translate {
+    background-color: royalblue;
+    transition: .5s;
+/* regułka do zapamietania z uzyciem transition i position wysrodkowanie i ruch - ponizej*/
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+
+}
+
+.translate:hover {
+    /* TRANSFORM
+    - translate (X, Y) czyli parametry poruszajace obiekt po osi X-prawo lewo  Y-gora dół
+ */
+    transform: translate(50px, 100px);
+ /* transform: translateX();
+    transform: translateY();
+    transform: translateZ(); */
+
+
+
+
+}
+
+.scale {
+    background-color: blue;
+    transition: .5s;
+
+}
+
+.scale:hover {
+    /* TRANSFORM SCALE POMINIEJSZANIE I Z WIEKSZANIE  - ZMNIEJSZANIE ZE ZNAKIEM MINUS 
+    dajac minus mozemy odwrócić obiekt do góry nogami*/
+    transform: scale(2);
+}
+
+.rotate {
+    background-color: navy;
+    transition: .5s;
+    border-top: 5px solid green;
+    border-left: 5px solid red;
+    border-right: 5px solid orangered;
+    border-bottom: 5px solid snow;
+
+}
+
+.rotate:hover {
+    /* jednostka DEG - degres - stopnie 
+    praca na osiach XYZ
+    */
+    transform: rotateX(60deg);
+    transform: rotateZ(60deg);
+    transform: rotateZ(60deg);
+}
+
+.skew {
+    background-color: darkblue;
+    transition: .5s;
+
+}
+.skew:hover {
+    /* Jednostka tez stopnie czyli DEG
+    SKEW rozciaganie na skos - wykrzywienie
+    */
+    transform: skew(45deg);
+}

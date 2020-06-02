@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    color: aliceblue;
+    background-color: #333;
+    padding: 20px;
+    height: 100vh;
+    
+}
+
+h1{
+    text-transform: uppercase;
+}
+.square{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    background: none;
+    border: 2px solid white;
+}
+.square2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    background-color: royalblue;
+    transition: .3s;
+        /* TRANSFORM ORIGIN 
+    widac przy ustawieniu 
+    transform-origin: 50% 50%; - jak obraca sie kwadrat a obramowanie stoi nieruchomo
+
+    */
+    transform-origin: 0 0;
+}
+.square2:hover{
+    transform: rotateZ(45deg);
+}
+.dot{
+    position: absolute;
+    /* top 10% oznacze ze kropka jest na górze w rogu */
+    top: 10%; 
+    /* left10% oznacza ze z lewej strony nz górze */
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: black;
+}

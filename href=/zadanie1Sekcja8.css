@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    background-color: #333;
+    padding: 20px;
+    height: 100vh;
+    
+}
+div{
+    border: 1px solid black;
+}
+.long{
+    width: 800px;
+    height: 35px;
+    background-color: tomato;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: calc(50% - 400px);
+    padding: 10px;
+    margin: 20px;
+    transition: .5s;
+}
+.long:hover{
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    font-size: xx-large;
+    left: 50%;
+    background-color: goldenrod;
+    padding: 10px;
+    transform: scaleX(200px);
+    transform: scaleY(100px);
+    top: 50px;
+    left: calc(50% - 200px);
+    padding: 35px;
+}
+.short{
+    width: 300px;
+    height: 35px;
+    background-color: royalblue;
+    text-align: center;
+    position: relative;
+    left: calc(50% -  125px);  
+    top: 100px;  
+    padding: 5px;
+    border-radius: 50px;
+    transition: 2s;
+}
+.short:hover{
+    transform: rotate(360deg);
+}
+.short:hover~.short2{
+    transition: 2s 2s;
+    transform: rotate(360deg);
+}
+.short:hover~.short3{
+    transition: 2s 4s;
+    transform: rotate(360deg);
+}
+
+.short2{
+    width: 250px;
+    background-color: gold;
+    text-align: center;
+    position: relative;
+    left: calc(50% - 500px); 
+    top: 150px;   
+    padding: 5px;
+    border-radius: 10px;
+    transition: 2s ease-out ;
+
+}
+.short2:hover{
+    
+
+}
+.short3{
+    width: 250px;
+    background-color: greenyellow;
+    text-align: center;
+    position: relative;
+    left: calc(50% + 300px); 
+    top: 150px;   
+    padding: 5px;
+    border-radius: 10px;
+    transition: cubic-bezier(.03,1.66,1,-0.92);
+
+}
+.short3:hover{
+    transform: rotate(360deg);
+
+}
+.center{
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    left: calc(50% -  150px);
+    top: 450px;     
+    padding: 50px 10px;
+    color: aliceblue;
+    
+}
+.center:hover{
+    background-color: aliceblue;
+    color: black;
+}
