@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    color: aliceblue;
+    height: 200vh;
+    background-color: #333;
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    background-image: url('https://cdn.pixabay.com/photo/2020/05/01/07/11/rain-5115710_960_720.png');
+    /* bez powtarzania obrazu no repete 
+    mozemy powtarac tez obrazki w osi pionowej czy poziomej
+    */
+    background-repeat: no-repeat;
+
+    /* BCG position - pozycjonowanie obrazka 
+    lewa prawa srodek góra dół
+    */
+    background-position: center;
+
+    /* BCG size 
+    contain zachowujemy skalowanie obrazka dostosowanie do wielkosci
+    rózne opcje
+    */
+    background-size: contain;
+
+    /* BCG attachment np przyklejenie tła jak przesuwamy suwakiem np fixed*/
+    background-attachment: fixed;
+
+
+
+}
+h1{
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+/* RWD - resposible web desing - strona na desktop i urzadzenia mobilne 
+i
+AWD - adaptic web desing - AWD druga przygotowana wersja strony przygotowana na urzadzenia mobilne
+*/

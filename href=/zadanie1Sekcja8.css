@@ -27,18 +27,19 @@ div{
     transition: .5s;
 }
 .long:hover{
-    width: 400px;
-    height: 100px;
+    transform: scale(2);    
+    width: 200px;
+    /* height: 40px; */
     text-align: center;
-    font-size: xx-large;
+    /* font-size: xx-large; */
     left: 50%;
     background-color: goldenrod;
-    padding: 10px;
-    transform: scaleX(200px);
-    transform: scaleY(100px);
+    /* padding: 35px; */
     top: 50px;
-    left: calc(50% - 200px);
-    padding: 35px;
+    left: calc(50% - 100px);
+    transition: .5s;
+
+
 }
 .short{
     width: 300px;
@@ -55,15 +56,9 @@ div{
 .short:hover{
     transform: rotate(360deg);
 }
-.short:hover~.short2{
-    transition: 2s 2s;
+.short:hover~.short2, .short:hover~.short3{
     transform: rotate(360deg);
 }
-.short:hover~.short3{
-    transition: 2s 4s;
-    transform: rotate(360deg);
-}
-
 .short2{
     width: 250px;
     background-color: gold;
@@ -73,11 +68,7 @@ div{
     top: 150px;   
     padding: 5px;
     border-radius: 10px;
-    transition: 2s ease-out ;
-
-}
-.short2:hover{
-    
+    transition: 2s ease-out 2s;
 
 }
 .short3{
@@ -89,7 +80,7 @@ div{
     top: 150px;   
     padding: 5px;
     border-radius: 10px;
-    transition: cubic-bezier(.03,1.66,1,-0.92);
+    transition: 2s ease-out 4s;
 
 }
 .short3:hover{
