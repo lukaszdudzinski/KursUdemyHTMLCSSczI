@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #333;
+    height: 100vh;
+}
+.circle{
+    background-color: lime;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 30px 30px 100px lime;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    display: block;
+    position: absolute;
+}
+.circle:hover{
+    background-color: royalblue;
+    box-shadow: 30px 30px 100px;
+}
+/*  CSS dobre praktyki
+W selektorze
+Najwazniejsze rzeczy umieszczany na samej górze
+
+position
+top/left
+
+display
+padding/margin
+width/height
+
+color,bcg,border
+
+font-size, font-weight
+
+cursor, transition
+
+*/

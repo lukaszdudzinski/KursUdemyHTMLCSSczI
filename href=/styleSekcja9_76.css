@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #333;
+    height: 100vh;
+
+}
+.square{
+    width: 50%;
+    height: 50%;
+    margin: 150px auto;
+    background-color: royalblue;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+/* W tym wypadku @media powoduje w raz ze zmiana rozmiaru obietku zmiane jego kolorów. */
+
+/* media portrait - układ portetowy*/
+@media(orientation: portrait ){
+    .square{
+        background-color: deeppink;
+    }
+}
+
+/* @media(min-width:500px){
+    .blue{
+        background-color: goldenrod;
+    }
+
+}
+@media(min-width:600px){
+    .blue{
+        background-color: salmon;
+
+    }
+    
+}
+@media(min-width:700px){
+    .blue{
+        background-color: blueviolet;
+    }
+    
+} */
