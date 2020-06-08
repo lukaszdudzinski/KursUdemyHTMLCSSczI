@@ -13,19 +13,34 @@
     <link rel="stylesheet" href="/href=/styleSekcja11.css">
 </head>
 <body>
-    <header>
-        <!-- robimy tło z obrazka -->
+    <!-- wklejony ponizej div zwiazany z jsem include HTML
+    powoduje połączenie do podstron
+    -->
+    <div w3-include-html="indexSekcja11_header.html"></div>
+    <div w3-include-html="indexSekcja11_nav.html"></div>
+    <!-- div z footerem jest poniżej sekcji main aby zachowac kolejnosc układu na stronie -->
+
+
+
+<!-- zakomentowałem poniżej heder, który pierwotnie był uzywany dopóki nie było JSa i funkcji includeHTML -->
+
+    <!-- <header>
+        robimy tło z obrazka
         <div class="header-img">
-            <!-- ?headre text bedzie tu tekst -->
+            ?headre text bedzie tu tekst
             <div class="header-text">
             <h1>lamer divers</h1>
             <p>z nami pójdziesz na samo dno</p>
             </div>
-            <!-- header bg to bedzie cień -->
+            header bg to bedzie cień
             <div class="header-bg"></div>
         </div>
-    </header>
-    <nav>
+    </header> -->
+
+    <!-- zakomentowałem poniżej heder, który pierwotnie był uzywany dopóki nie było JSa i funkcji includeHTML -->
+
+
+    <!-- <nav>
     <ul>
         <li><a href="indexSekcja11.html">home</a></li>
         <li><a href="indexSekcja11_uslugi.html" target="_blank">usługi</a></li>
@@ -33,13 +48,24 @@
         <li><a href="">kontakt</a></li>
     </ul>
 
-    </nav>
+    </nav> -->
     <main>
-        
-        USŁUGI
+        <h2 class="about-us-heading">usługi</h2>
+        <ul class="services">
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+        </ul>
         
     </main>
-    <footer>
+
+    <div w3-include-html="indexSekcja11_footer.html"></div>
+
+    <!-- zakomentowałem poniżej heder, który pierwotnie był uzywany dopóki nie było JSa i funkcji includeHTML -->
+
+    <!-- <footer>
         <p>Lorem ipsum dolor sit amet consectetur.
         <span class="foot-ico"><a href="">
         <i class="fab fa-facebook-square"></i>
@@ -48,6 +74,13 @@
         </span>
         </a>
         </p>
-    </footer>
+    </footer> -->
+    <!-- SCRIPT JSowy OSWIEZAJACY DANE W HEDERZE HOME USŁUGI CENNIK KONTAKT -->
+    <script src="/js/scriptSekcja11.js"></script>
+    <!-- wklajamy tag html to jest ze strony w3schools.com how to include html 
+    ten fragment poniżej bedzie wywoływał skryp powyzej - wywołanie funkcji (nazawa funkcji)includeHTML z javasriptu-->
+        <script>
+        includeHTML();
+        </script>
 </body>
 </html>
