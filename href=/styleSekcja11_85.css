@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size:10px ;
+
+}
+ body{
+    background-color: #333;
+    height: 100vh;
+}
+.test{
+    display: none;
+}
+@media(min-width:400px){
+    body{
+        background-color: goldenrod;
+        
+    }
+}
+@media(min-width:600px){
+    body{
+        background-color: blueviolet;
+    }
+}
+@media(min-width:800px){
+    body{
+        background-color: deeppink;
+    }
+    .test{
+        display: block;
+        text-align: center;
+        padding-top: 50%;
+        font-size: 6rem;
+    }
+}
