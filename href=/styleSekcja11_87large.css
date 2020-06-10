@@ -1,0 +1,8 @@
+/* // Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... } */
+.header-img{
+    /* zajmujemy sie tu tylko obrazkiem aby wygladał dobrze */
+    background-image: url("/img/coding-1841550_1920.jpg");  
+      /*Na ekran 4k */
+    background-size: cover;
+}

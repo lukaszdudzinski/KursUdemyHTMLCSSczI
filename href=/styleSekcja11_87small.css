@@ -1,0 +1,6 @@
+/*     // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... } */
+.header-img{
+    /* zajmujemy sie tu tylko obrazkiem aby wygladał dobrze */
+    background-image: url("/img/coding-1841550_1280.jpg");    
+}
