@@ -89,6 +89,97 @@ nav{
 .header-text p{
     font-size: 14px;
 }
+
+/* MAIN */
+.products{
+    font-size: 0;
+}
+main{
+    color: aliceblue;
+}
+main h2{
+    font-size: 28px;
+    margin: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.underline{
+    position: relative;
+}
+.line{
+    position: absolute;
+    left: calc(50% - 30px);
+    bottom: -5px;
+    width: 60px;
+    height: 3px;
+    background-color: red;
+}
+section{
+    margin: 120px 0;
+}
+.about-us p{
+    padding: 0 20px;
+    
+}
+.main-product{
+    display: inline-block;
+    position: relative;
+    height: 260px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.main-product:hover .product-text h3{
+    transform:scale(1.2);
+
+}
+.first-product{
+    background-image: url("/img/gray-laptop-computer-showing-html-codes-in-shallow-focus-160107.jpg");
+}
+.second-product{
+    background-image: url("/img/lines-of-code-2653362\ \(1920\).jpg");
+}
+.third-product{
+    background-image: url("/img/grayscale-photo-of-computer-laptop-near-white-notebook-and-169573.jpg");
+}
+.fourth-product{
+    background-image: url("/img/purple-and-green-computer-screen-type-92905.jpg");
+}
+.product-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+.product-text h3{
+    transition:transform .3s ;
+    
+}
+.contact{
+    text-align: center;
+}
+.contact h3{
+    margin: 20px 0 5px ;
+    text-align: center;
+}
+.contact i{
+    font-size:20px ;
+    margin-right: 10px;
+    line-height: 160%;
+}
+/* FOOTER */
+footer{
+    height: 80px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 80px;
+    font-size: 10px;
+}
+
 @media(min-width:400px ){
     .headrer-text h1{
         /* font-size: 1rem; */
@@ -97,10 +188,18 @@ nav{
     .header-text p{
         font-size: 5px;
     }
+    .product-text h3{
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-size: 36px;
+    }
+    .product-text{
+        font-size: 19px;
+    }
+    footer{
+        font-size: 14px;
+    }
 
 }
-/* MAIN */
-.about-us h2{
-    text-align: center;
-}
+
 

@@ -29,4 +29,11 @@ display: none;
 .headrer-text p{
     font-size: 22px;
 }
-
+/* MAIN */
+.main-product{
+    width: 50%;
+    
+}
+.product-text{
+    font-size: 22px;
+}
