@@ -30,6 +30,9 @@ display: none;
     font-size: 22px;
 }
 /* MAIN */
+section{
+    margin: 120px 0;
+}
 .main-product{
     width: 50%;
     
